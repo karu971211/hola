@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+background-color:burlywood;
+}
+
+p {
+    background-color: blueviolet;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.parrafo-dos {
+    background-color: #fb8500;
+    color: #219ebc;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+#parrafo-tres {
+    color: blue;
+    letter-spacing: 15px;
+    word-spacing: 15px;
+    background-color: azure;
+}
+
+.flexbox-contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
